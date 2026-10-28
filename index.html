@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ASP Student Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <!-- Header Landmark (Deep Navy) -->
+  <header class="site-header">
+    <h1>ASP Student Portal</h1>
+  </header>
+
+
+ <form action="#" method="POST" class="form-group">
+  <main class="dashboard-container">
+
+    <section class="card-box">
+      <h2>Register for Course</h2>
+      <form action="/register" method="POST">
+    
+        <div class="form-group">
+          <label for="student-name">Fullname:</label>
+          <input type="Fullname" id="student-name" name="fullname" required>
+        </div>
+
+
+        <div class="form-group">
+          <label for="student-email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+
+        <button type="submit" class="submit-btn">Submit Registration</button>
+      </form>
+    </section>
+
+
+     <form action="#" method="POST" class="card-box">
+    <section class="schedule-table">
+      <h2>Upcoming Schedule</h2>
+      <table class="schedule-table">
+<thead><table>
+<td>Course</td>        <td>Day</td>      <td>Room</td>
+<tr><td>Web Dev</td>     <td>Monday</td>        <td>Lab 102</td>
+<tr><td>JS Core</td>         <td>Wednesday</td>    <td>Lab 102</td>
+<tr><td>Midday Break</td>
+
+<colspan="3"></colspan>
+<class="break-cell"></class>
+
+</thead>
+      </table>
+    </section>
+
+</form>
+  </main>
+
+
+  <!-- Footer Landmark with External Blank Target Link -->
+  <footer class="site-footer">
+    <p>Visit our official site <a href="https://www.asp.edu" target="_blank">ASP Website</a></p>
+  </footer>
+
+
+</body>
+</html>
